@@ -1,7 +1,7 @@
 {
   "name": "ogg-desktop",
   "productName": "Ogg Desktop",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Ogg Desktop Master Tool",
   "main": "src/main.js",
   "scripts": {
@@ -111,7 +111,7 @@
   },
   "devDependencies": {
     "electron": "^28.0.0",
-    "electron-builder": "^24.0.0"
+    "electron-builder": "^24.13.3"
   },
   "dependencies": {
     "ethers": "^5.7.2"

@@ -7,5 +7,7 @@ window.electronAPI = {
   close:    () => ipcRenderer.send('window-close'),
   getUserDataPath: () => ipcRenderer.invoke('get-user-data-path'),
   rpcCall: (url, body) => ipcRenderer.invoke('rpc-call', url, body),
+  httpGet: (url) => ipcRenderer.invoke('http-get', url),
+  clipboardWrite: (text) => ipcRenderer.invoke('clipboard-write', text),
 }
 console.log('[preload] electronAPI ready')
